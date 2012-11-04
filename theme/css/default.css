@@ -293,18 +293,18 @@ slides > slide.dark {
 /* line 171, ../scss/default.scss */
 slides > slide:not(.nobackground):before {
   font-size: 12pt;
-  content: "#galgeriaextendedday2012";
+  content: "#galgeriaextended";
   position: absolute;
   bottom: 20px;
   left: 60px;
-  background: url(../../images/google_algeria_extended_day.png) no-repeat 0 50%;
-  -webkit-background-size: 30px 30px;
-  -moz-background-size: 30px 30px;
-  -o-background-size: 30px 30px;
-  background-size: 30px 30px;
-  padding-left: 40px;
-  height: 30px;
-  line-height: 1.9;
+  background: url(../../images/galgeria_header_logo.png) no-repeat 0 50%;
+  -webkit-background-size: 100px 35px;
+  -moz-background-size: 100px 35px;
+  -o-background-size: 100px 35px;
+  background-size: 100px 35px;
+  padding-left: 105px;
+  height: 35px;
+  line-height: 2.3;
 }
 /* line 183, ../scss/default.scss */
 slides > slide:not(.nobackground):after {
@@ -318,7 +318,7 @@ slides > slide:not(.nobackground):after {
 /* line 194, ../scss/default.scss */
 slides > slide.title-slide:after {
   content: '';
-  background: url(../../images/google_algeria_extended_day.png) no-repeat 100% 50%;
+  background: url(../../images/galgeria_header_logo.png) no-repeat 100% 50%;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
