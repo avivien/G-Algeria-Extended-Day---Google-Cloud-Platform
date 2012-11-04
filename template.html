@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google  Algeria Extended day</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/google_algeria_extended_day.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/esi.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Sommaire</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Le Cloud computing</li>
+        </br>
+        <li>Google cloud platform
+          <ul>
+            <li>Google Computing Engine</li>
+            <li>Google App Engine</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </slide>
+    
+	<slide>
+	  <hgroup>
+	    <h2>Le Cloud computing</h2>
+      <h3>Définition</h3>
+	  </hgroup>
+    <article>
+      <center>
+        <img style="height: 300px;" src="images/what_is_cloud.png"/>
+      </center>
+	    <p style="font-size: 24px;">Définition retenue par le <a href="http://www.nist.gov/public_affairs/nandyou.cfm">NIST</a></p>
+			<p style="font-size: 22px;">"Le Cloud Computing est un modèle informatique qui permet un accès facile et à la demande par le internet à un ensemble partagé de ressources informatiques configurables (serveurs, stockage, applications et services) qui peuvent être rapidement provisionnées et libérées par un minimum d'efforts de gestion ou d'interaction avec le fournisseur du service"</p>
+    </article>
+	</slide>
+
+  <slide>
+    <hgroup>
+      <h2>Le Cloud computing</h2>
+      <h3>Les cinq caractéristiques essentielles du Cloud Computing</h3>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Accès aux services à la demande par l'utilisateur</li>
+        <li>Accès via Internet</li>
+        <li>Réservoir de ressources (non localisées)</li>
+        <li>Redimensionnement rapide (élasticité)</li>
+        <li>Facturation à l'usage</li>
+      </ul>
+      <ul class="build">
+        <li style="color: red;">A ne pas confondre avec l'Outsourcing!</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Le Cloud computing</h2>
+      <h3>Les 3 plus gros avantages du Cloud Computing</h3>
+    </hgroup>
+    <article>
+      <table style="width: auto; border-spacing: 0px; border-bottom: 0px;">
+        <tr style="background-color: transparent;">
+          <td><img src="images/succeed.png" alt="Scale" title="Scale"/></td>
+          <td style="font-size: 26px;"><span style="font-weight: bold;" class="gray4">Succès</span><br/>Concentrez vous sur votre coeur de métier</td>
+        </tr>
+        <tr style="background-color: transparent;">
+          <td><img src="images/scale.png" alt="Scale" title="Scale"/></td>
+          <td style="font-size: 26px;"><span style="font-weight: bold;" class="gray4">Scalabilité</span><br/>Utiliser une puissance de calcul scalable</td>
+        </tr>
+        <tr style="background-color: transparent;">
+          <td><img src="images/save_money.png" alt="Scale" title="Scale"/></td>
+          <td style="font-size: 26px;"><span style="font-weight: bold;" class="gray4">Economisé</span><br/>Economiser de l'argent sur les coûts opérationnels</td>
+        </tr>
+      </table>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Le Cloud computing</h2>
+      <h3>Les différentes couches du Cloud computing</h3>
+    </hgroup>
+    <article>
+      <ul>
+      <center>
+        <img src="images/schema_carac_cloud.jpg" alt="Modèles de service (couches)" title="Modèles de service (couches)">
+      </center>
+      </ul>
+      </br>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Le Cloud computing</h2>
+      <h3>Les acteurs majeurs du Cloud Computing</h3>
+    </hgroup>
+    <article style="margin-top: 0px;">
+      <img style="height: 500px;" src="images/cloud_examples.png"/>
+    </article>
+    </center>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Google Cloud Platform</h2>
+    </hgroup>
+    <article style="margin-top: 0px;">
+      <table style="width: auto; border-spacing: 0px; border-bottom: 0px;">
+        <tr style="background-color: transparent;">
+          <td><img style="height: 130px;" src="images/app_engine_logo.jpeg" alt="App Engine" title="App Engine"/></td>
+          <td style="font-size: 26px;"><span style="font-weight: bold;" class="gray4">Google App Engine</span><br/>Créer des applications sur la plateforme Google et bénéficier de l'infrastructure eprouvée de Google.</td>
+        </tr>
+        <tr style="background-color: transparent;">
+          <td><img style="height: 100px;" src="images/compute_engine_logo.png" alt="Scale" title="Scale"/></td>
+          <td style="font-size: 26px;"><span style="font-weight: bold;" class="gray4">Google Compute Engine</span><br/>Exécuter vos gros calculs informatique sur des serveurs virtuels Linux hébergés sur l'infrastructure Google.</td>
+        </tr>
+        <tr style="background-color: transparent;">
+          <td><img style="height: 90px;" src="images/cloud_storage_logo.png" alt="Scale" title="Scale"/></td>
+          <td style="font-size: 26px;"><span style="font-weight: bold;" class="gray4">Google Cloud Storage</span><br/>Stocker, accéder et manager vos fichiers sur l'infrastructure de stockage de Google.</td>
+        </tr>
+        <tr style="background-color: transparent;">
+          <td><img style="height: 90px;" src="images/bigquery_logo.png" alt="Scale" title="Scale"/></td>
+          <td style="font-size: 26px;"><span style="font-weight: bold;" class="gray4">Google BigQuery</span><br/>Analyser vos gros volumes de données dans le Cloud en utilisant SQL et récupérer des informations Business en quelques secondes.</td>
+        </tr>
+      </table>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google Compute Engine</h2>
+    </hgroup>
+    <article>
+      <center>
+        <img src="images/google_compute_engine_logo.jpeg" alt="Google Compute Engine" title="Google Compute Engine">
+      </center>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google Compute Engine</h2>
+      <h3>Description</h3>
+    </hgroup>
+    <article>
+      <p>Google Compute Engine est une Infrastructure-as-a-Service. Elle vous permet d'héberger des machines virtuelles Linux.</p>
+      <p>Elle met à votre service les éléments suivants :</p>
+      <ul>
+        <li>Des ressources de calcul</li>
+        <li>Du stockage</li>
+        <li>Du réseau
+          <ul>
+            <li>Internet</li>
+            <li>Privé</li>
+          </ul>
+        </li>
+        <li>Des outils
+          <ul>
+            <li>Ligne de commande</li>
+            <li>API REST</li>
+          </ul>
+        </li>
+      </ul>
+      <img style="position: absolute; bottom:65px; right:140px;" src="images/archi_compute_engine.png"/>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google Compute Engine</h2>
+      <h3>Utilisation</h3>
+    </hgroup>
+    <article>
+      <p>Google Compute Engine est en "Limited Preview", vous devez faire une demande avec la description de votre projet pour pouvoir l'utiliser.</p>
+      <p>Les usages qui sont actuellement retenus par Google sont :</p>
+      <ul>
+        <li><span style="font-weight: bold;" class="gray4">Batch processing :</span> Exécuter des tâches de traitement par lots, comme le transcodage et le rendu vidéo.</li>
+        <li><span style="font-weight: bold;" class="gray4">Data processing :</span> Analyser une quantité colossale de données dans le Cloud en utilisant des frameworks comme Hadoop (MapReduce)</li>
+        <li><span style="font-weight: bold;" class="gray4">High-Performance Computing :</span> Exécuter des applications demandant une grosse puissance de calcul.</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+    </hgroup>
+    <article>
+      <center>
+        <img src="images/app_engine_logo.jpeg" alt="Google App Engine" title="Google App Engine">
+      </center>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Un peu d'histoire</h3>
+    </hgroup>
+    <article>
+      <p>Google App Engine est une offre PaaS proposée par Google depuis 2008.<br/>
+        Elle permet d'héberger tout type d'application web, allant des applications 
+        pour entreprise au jeux pour téléphone mobile sur la même infrastructure que 
+        celle que Google utilise pour ses propres applications.</p>
+      <p>Avec le support de 3 langages <span class="gray4">Python</span>, <span class="gray4">Java</span> and <span class="gray4">Go</span> vous n'avez pas besoin de changer vos habitudes de développement.<br/>
+        Google App Engine offre également un ensemble de puissantes APIs, un High replication data storage, une console d'administration et un environnement automatiquement scalable.</p>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Les points clés</h3>
+    </hgroup>
+    <article>
+      <ul>
+        <li><span style="font-weight: bold;" class="gray4">Quick to start</span> Pas besoin de software ou hardware à acheter ou maintenir, vous pouvez développer et déployer une application à vos utilisateurs en quelques heures.</li>
+        <li><span style="font-weight: bold;" class="gray4">Simple to use</span> Google App Engine contient tous les outils dont vous avez besoin pour développer, tester, mettre à jour et déployer vos applications.</li>
+        <li><span style="font-weight: bold;" class="gray4">Rich set of APIs</span> Construisez rapidement des services avec des fonctionnalités riches grâce aux APIs Google App Engine.</li>
+        <li><span style="font-weight: bold;" class="gray4">Immediate scalability</span> Il n'y a presque aucune limite à au niveau ou la rapidité que votre application peut scaler.</li>
+        <li><span style="font-weight: bold;" class="gray4">Pay for what you use</span> Commencer avec les quotas gratuits et ensuite payer seulement les ressources que votre application utilise.</li>
+        <li><span style="font-weight: bold;" class="gray4">Business ready</span> Version Premium pour les entreprises avec un SLA de 99,95% et un support.</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Un peu plus de détail (1/5)</h3>
+    </hgroup>
+    <article>
+      <p style="font-weight: bold;" class="gray4">L'hébergement sans soucis</p>
+      <p>Google App Engine utilise les mêmes infrastructures et technologies avancées qui hébergent les applications
+        Google et qui délivrent une scalabilité automatique. Vous n'avez plus à vous inquièter de la configuration des serveurs, du load balancing, les experts de chez Google s'occupent de ça pour vous.</p>
+      <p style="font-weight: bold;" class="gray4">Des développements simples dans des langages que vous connaissez</p>
+      <p>Google App Engine offre le support de Python 2.5 et 2.7, de Java 5 et 6 et du jeune langage prometteur Go version 1. Les développeurs peuvent également profiter du support de la JVM pour utiliser les langages JRuby et Rhino.</p>
+      <p>Google App Engine fournit également un kit de développement (SDK) qui donne aux développeurs tout ce dont ils ont besoin pour développer et tester leurs applications sur leur poste de travail en simulant les services App Engine.</p>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Un peu plus de détail (2/5)</h3>
+    </hgroup>
+    <article>
+      <p style="font-weight: bold;" class="gray4">Services haute disponibilité NoSQL et SQL</p>
+      <p>Le service NoSQL intégré High Replication Datastore (HRD) peut stocker des centaines de teraoctects de données avec au moins 3 sites de réplication indépendants, une scalabilité à faible coûts, des fonctionnalités de transaction, un système de requêtage puisant sans aucun setup ou configuration requis.</p>
+      <p>Google App Engine peut également utilisé le service Google Cloud SQL, un service proposant des bases de données relationnelles SQL dans le cloud.</p>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Un peu plus de détail (3/5)</h3>
+    </hgroup>
+    <article>
+      <p style="font-weight: bold;" class="gray4">Une liste riche d'APIs et services</p>
+      <ul>
+        <li>Service de Logging, avec possibilité de récupérer les logs par API</li>
+        <li>App Engine Map Reduce pour traiter et transformer des gros volume de données</li>
+        <li>Search API, créer facilement des indexes et des requêtes de recherche sur les données de vos applications</li>
+        <li>Support du SSL sur vos propre domaines avec les standards SNI et VIP.</li>
+        <li>PageSpeed service pour optimizer les performances de vos pages webs</li>
+        <li>Google Cloud Endpoints, exposer facilement les services et données de vos applications</li>
+        <li>Blobstore API, stocker des objets volumineux</li>
+        <li>Files API, pour gérer des fichiers, intégré à Google CLoud Storage</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Un peu plus de détail (4/5)</h3>
+    </hgroup>
+    <article>
+      <ul>
+        <li>XMPP API, envoyer et recever des messages instantanés</li>
+        <li>Channel API, créer des channels de communication avec le navigateur internet pour envoyer instantanément des informations à l'utilisateur (websocket)</li>
+        <li>Memcache API, service de cache mémoire performant</li>
+        <li>User API, authentifier les utilisateurs via OpenID ou compte Google</li>
+        <li>Task queues et cron services, planifier des taches pour qu'elles soient exécutées en background.</li>
+        <li>URL Fetch API, appeler facilement des webservices ext</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Un peu plus de détail (5/5)</h3>
+    </hgroup>
+    <article>
+      <p style="font-weight: bold;" class="gray4">Prix flexible</p>
+      <p>Chaque application App Engine possède des quotas d'utilisation gratuits, qui peuvent être utilisés lors des phases de développment ou pour des applications avec une faible utilisation. En même temps que l'usage de votre application augmente vous ne payez que ce que vous utilisez, évitant les effets d'over-provisioning.</p>
+      <p style="font-weight: bold;" class="gray4">Choix de la localisation</p>
+      <p>Les comptes Google App Engine Premier peuvent choisir l'emplacement de leurs applications entre les USA et l'Europe.</p>
+      <p style="font-weight: bold;" class="gray4">Service Level Agreement (SLA)</p>
+      <p>Google App Engine offre un SLA de 99,95% de disponibilité pour les applications qui ont activé le billing.</p>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Exemple de projets : Immosite</h3>
+    </hgroup>
+    <article>
+      <p>Immosite est une application de gestion de parc immobilier.</p>
+      <p>Elle a été developpé en Python et utilise les services App Engine suivants :</p>
+      <ul style="width: 400px;">
+        <li><span style="font-weight: bold;" class="gray4">Tasks queues </span> pour synchroniser son référentiel de données.</li>
+        <li><span style="font-weight: bold;" class="gray4">URL Fetch</span> pour appeler les API REST de l'application maitre du référentiel.</li>
+        <li><span style="font-weight: bold;" class="gray4">User service</span> pour authentifier les utilisateurs avec leur compte Google.</li>
+      </ul>
+      <img style="height: 300px; position: absolute; bottom:100px; right:140px;" src="images/immosite.png"/>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Exemple de projets : Extended Control Panel</h3>
+    </hgroup>
+    <article>
+      <p>Extended Control Panel est une application d'administration avancée de Google Apps.</p>
+      <p>Elle a été developpé en Java/GWT et utilise les services App Engine suivants :</p>
+      <ul style="width: 400px; font-size: 20px;">
+        <li><span style="font-weight: bold;" class="gray4">Tasks queues </span> pour synchroniser son référentiel de données.</li>
+        <li><span style="font-weight: bold;" class="gray4">URL Fetch</span> pour appeler les API REST de Google Apps.</li>
+        <li><span style="font-weight: bold;" class="gray4">Mail</span> pour envoyer automatique des emails aux administateurs après l'execution de certaines taches.</li>
+        <li><span style="font-weight: bold;" class="gray4">Blobstore</span> pour stocker des fichiers d'export CSV.</li>
+        <li><span style="font-weight: bold;" class="gray4">User service</span> pour authentifier les utilisateurs avec leur compte Google.</li>
+      </ul>
+      <img style="height: 300px; position: absolute; bottom:100px; right:140px;" src="images/extended_cpanel.png"/>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Google App Engine</h2>
+      <h3>Exemple de projets : Google Apps Profile Gmail Gadget</h3>
+    </hgroup>
+    <article>
+      <p>Google Apps Profile Gmail Gadget est un gadget gmail qui affiche le profil Google Apps de l'expéditeur du mail en bas de celui-ci.</p>
+      <p>Elle a été developpé en Python et utilise les services App Engine suivants :</p>
+      <ul style="width: 400px;">
+        <li><span style="font-weight: bold;" class="gray4">Tasks queues </span> pour synchroniser les licences du Google Apps Marketplace.</li>
+        <li><span style="font-weight: bold;" class="gray4">URL Fetch</span> pour appeler les API REST de Google Apps Profile API.</li>
+        <li><span style="font-weight: bold;" class="gray4">Memcache</span> pour mettre en cache les données des profiles.</li>
+      </ul>
+      <img style="width: 480px; position: absolute; bottom:200px; right:140px;" src="images/profile_gmail_gadget.png"/>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Questions ?</h2>
+    </hgroup>
+  </slide>
+
+  <slide class="thank-you-slide segue nobackground">
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Thank You!&gt;</h2>
+      <p>Important contact information goes here.</p>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!--script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script-->
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
